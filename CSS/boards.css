@@ -1,0 +1,678 @@
+body {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container {
+    width: 96%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+section.pirma {
+    background: url("../board-cover.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.pirma .container .navbar{
+    padding-top: 50px;
+    text-align: right;
+}
+
+section.pirma .container .navbar .bandom{
+    width: 40%;
+    float: right;
+    position: relative;
+}
+
+section.pirma .container .navbar img{
+    width: 100px;
+    display: inline-block;
+    transition: 2s;
+}
+
+section.pirma .container .navbar .bandom p{
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #00ff00;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transition: 2s;
+}
+
+
+section.pirma .container .navbar .bandom:hover > .slide_1 {
+    display:inline-block;
+    position: absolute;
+    top: 90%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_2 {
+    display:inline-block;
+    position: absolute;
+    top: 110%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_3 {
+    display:inline-block;
+    position: absolute;
+    top: 140%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_4 {
+    display:inline-block;
+    position: absolute;
+    top: 165%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_5 {
+    display:inline-block;
+    position: absolute;
+    top: 195%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_6 {
+    display:inline-block;
+    position: absolute;
+    top: 210%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+section.pirma .container .navbar .bandom:hover > .slide_7 {
+    display:inline-block;
+    position: absolute;
+    top: 240%;
+    transition: 1.5s;
+    opacity: 1;
+}
+
+
+section.pirma .container .navbar img:hover {
+    transform: rotate(360deg);
+    color: red;
+}
+
+@media (max-width: 500px) {
+
+}
+
+section.antra {
+    height: 60vh;
+    background: #e6f3ff;
+}
+
+section.antra .antra-header {
+    padding-top: 50px;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+section.antra .antra-header .fa-hubspot {
+    color: #24478f;
+    font-size: 60px;
+    transition: 2s;
+}
+
+
+section.antra .antra-header h3 {
+    font-family: 'Shrikhand', cursive;
+    opacity: 0;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0%;
+    transition: 1.5s;
+}
+
+section.antra .antra-header p{
+    font-family: 'Shrikhand', cursive;
+    opacity: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    color: slategray;
+    position: absolute;
+    top: 0%
+}
+
+section.antra .antra-header:hover > h3{
+    opacity: 1;
+    top: 85%;
+    transition: 1.5s;
+}
+section.antra .antra-header:hover > .fa-hubspot {
+    font-size: 80px;
+    color: #b3b3ff;
+    transform: rotate(360deg);
+}
+
+section.antra .antra-header:hover > #isimtis{
+    opacity: 1;
+    top: 135%;
+    transition: 2s;
+    line-height: 20px;
+}
+
+section.trecia {
+    height: 57vh;
+}
+
+section.trecia .gallery {
+    display:flex;
+    justify-content: stretch;
+}
+
+section.trecia .gallery .big_half{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+section.trecia .gallery .big_half img:hover{
+    transform: scale(1.4);
+    transition: 2s;
+}
+
+section.trecia .gallery .big_half img{
+    transition: 2s;
+}
+
+.fa-braille {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #b3b3ff;
+    transition: 2s;
+}
+
+section.trecia .gallery .small_half .bigger{
+    height: 200px;
+}
+
+section.trecia .gallery .small_half .bigger:hover > h4{
+    opacity:1;
+    transition: 2.5s;
+}
+
+section.trecia .gallery .small_half .bigger:hover > p{
+    opacity: 1;
+    transition : 3s;
+}
+
+section.trecia .gallery .small_half .bigger:hover > .fa-braille{
+    color: #24478f;
+    transition: 2s;
+}
+
+section.trecia .gallery .small_half h4 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top:10px;
+    opacity: 0;
+    transition: 2.5s;
+}
+
+section.trecia .gallery .small_half p{
+    margin: 20px 20px;
+    font-size: 14px;
+    opacity: 0;
+    transition: 2.5s;
+}
+
+
+section.trecia .gallery .small_half .smaller{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+section.trecia .gallery .small_half .smaller img{
+    width: 100%;
+    height: 150px;
+    transition: 3s;
+}
+
+section.trecia .gallery .small_half .smaller img:hover{
+    transform: scale(2.0);
+}
+
+section.ketvirta .gallery{
+    display:flex;
+    justify-content: stretch;
+    max-height: 300px;
+}
+
+section.ketvirta {
+    height: 53vh;
+    margin-top: -28px;
+}
+
+
+section.ketvirta .gallery .big_half{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+section.ketvirta .gallery .big_half img:hover{
+    transform: scale(1.4);
+    transition: 2s;
+}
+
+section.ketvirta .gallery .big_half img{
+    transition: 2s;
+}
+
+.fa-asymmetrik {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #b3b3ff;
+    transition: 2s;
+}
+
+section.ketvirta .gallery .small_half .bigger{
+    height: 200px;
+}
+
+section.ketvirta .gallery .small_half .bigger:hover > h4{
+    opacity:1;
+    transition: 2.5s;
+}
+
+section.ketvirta .gallery .small_half .bigger:hover > p{
+    opacity: 1;
+    transition : 3s;
+}
+
+section.ketvirta .gallery .small_half .bigger:hover > .fa-asymmetrik{
+    color: #24478f;
+    transition: 2s;
+}
+
+section.ketvirta .gallery .small_half h4 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top:10px;
+    opacity: 0;
+    transition: 2.5s;
+}
+
+section.ketvirta .gallery .small_half p{
+    margin: 20px 20px;
+    font-size: 14px;
+    opacity: 0;
+    transition: 2.5s;
+}
+
+
+section.ketvirta .gallery .small_half .smaller{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+section.ketvirta .gallery .small_half .smaller img{
+    width: 100%;
+    height: 150px;
+    transition: 3s;
+}
+
+section.ketvirta .gallery .small_half .smaller img:hover{
+    transform: scale(2.0);
+}
+
+section.penkta {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+section.penkta .wrapper{
+    width: 100%;
+}
+
+section.penkta .wrapper img{
+    width: 100%;
+}
+
+section.penkta .wrapper_mid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+section.penkta .wrapper_mid .botimg{
+    margin-top:5px;
+}
+
+section.penkta .wrapper_mid .botimg img{
+    width: 100%;
+}
+
+.fa-gg {
+    font-size: 50px;
+    margin: 30px;
+    color: #5d85d5;
+}
+
+
+section.penkta .wrapper_mid .text h4{
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #5d85d5;
+}
+
+section.penkta .wrapper_mid .text p{
+    margin: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #5d85d5;
+}
+
+section.penkta .wrapper_mid .text .line{
+    border-top: 3px solid black;
+    width: 7%;
+    margin: 10px auto 10px auto;
+    transition: 2s;
+}
+
+section.penkta .wrapper_mid .text:hover > .line{
+    border-top: 3px solid #24478f;
+    width: 30%;
+    transition: 2s;
+}
+
+section.sesta .fa-twitter{
+    margin: 70px auto 10px auto;
+    font-size: 30px;
+    color:#00aced;
+}
+
+section.sesta{
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+    background: #e6f3ff;
+    font-family: 'Shrikhand', cursive;
+}
+
+section.sesta h5 span{
+    font-weight: 900;
+    color:black;
+}
+
+section.sesta h5 {
+    color: gray;
+    margin: 5px auto 10px auto;
+}
+
+section.sesta p{
+    color: gray;
+    margin: 5px auto 10px auto;
+}
+
+section.sesta .circles{
+    width: 15%;
+    margin: 60px auto 10px auto;
+}
+
+section.sesta .circles .vienas{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: #000;
+    display:inline-block;
+}
+
+section.sesta .circles .antras{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+
+}
+
+section.sesta .circles .trecias{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+section.septinta {
+    height: 65vh;
+    background: #e6f9ff;
+}
+
+section.septinta .gallery{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 0;
+}
+
+section.septinta .gallery .box_1 {
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.septinta .gallery .box_1 .upper_half{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section.septinta .gallery .box_1 .upper_half img{
+    width: 100%;
+}
+
+section.septinta .gallery .box_1 .upper_half .left_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_1 .upper_half .right_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_1 .lower_half{
+    width: 100%;
+}
+
+section.septinta .gallery .box_1 .lower_half img{
+    width: 100%;
+}
+
+section.septinta .gallery .box_2 {
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.septinta .gallery .box_2 .left_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_2 .left_half img{
+    width: 100%;
+}
+
+section.septinta .gallery .box_2 .right_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_2 .right_half img {
+    width: 100%;
+}
+
+section.septinta .gallery .box_3 {
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.septinta .gallery .box_3 .upper_half{
+    width: 100%;
+}
+
+section.septinta .gallery .box_3 .upper_half img{
+    width: 100%;
+}
+
+section.septinta .gallery .box_3 .lower_half{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section.septinta .gallery .box_3 .lower_half .left_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_3 .lower_half .left_half img{
+    width: 100%;
+}
+
+section.septinta .gallery .box_3 .lower_half .right_half{
+    width: 50%;
+}
+
+section.septinta .gallery .box_3 .lower_half .right_half img{
+    width: 100%;
+}
+
+section.astunta{
+    margin-top: 19px;
+    height: 40vh;
+    background: #00001a;
+    display: flex;
+    justify-content: center;
+}
+
+section.astunta .button_discover{
+    width: 25%;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 26px;
+}
+
+section.devinta{
+    height: 70vh;
+}
+
+section.devinta .bot_menu{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 40%;
+}
+
+section.devinta .bot_menu img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+section.devinta .bot_menu h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 30px auto 40px auto;
+}
+
+section.devinta .bot_menu .input_div{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex:1;
+}
+
+section.devinta .bot_menu .input_div .inputas{
+    line-height: 50px;
+    width: 80%;
+    font-size: 15px;
+}
+
+section.devinta .bot_menu .input_div .button_go{
+    width: 20%;
+    background: #ff4d4d;
+    line-height: 50px;
+    color: whitesmoke;
+}
+
+section.desimta{
+    height: 30vh;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+section.desimta .footer{
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.desimta .footer .left_foot p:first-child{
+    font-size: 20px;
+}
+
+section.desimta .footer .mid_foot{
+    padding-top:20px;
+}
+
+section.desimta .footer .mid_foot i{
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+section.desimta .footer .mid_foot .fa-twitter{
+    color:#00aced;
+}
+section.desimta .footer .mid_foot .fa-facebook{
+    color:#3b5998;
+}
+
+section.desimta .footer .mid_foot .fa-pinterest{
+    color:#cb2027;
+}
+
+section.desimta .footer .right_foot{
+    padding-top: 30px;
+}
+
+section.desimta .footer .right_foot span{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 20px;
+}
